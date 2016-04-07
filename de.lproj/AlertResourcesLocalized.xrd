@@ -263,6 +263,17 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="2701" COMMENT="SetEmailAddressRecommendation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "Diese Funktion wird eine E-Mail mit einem Datenbank-Export als Anhang generieren. Hebe diese E-Mail bitte als Backup auf. Es wird empfohlen in ^1s 'Expert Settings' die E-Mail-Adresse zu setzen. Damit kann das Backup in Zukunft mit einem 'Tap' erstellt werden." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="2800" COMMENT="ImportSuccessful">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -1109,7 +1120,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Die Strecke '^1' hat mehr als einen Start Trigger. Bitte auf einen Trigger reduzieren."
         </MESSAGE>
@@ -1122,7 +1133,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Die Strecke '^1' hat mehr als einen Stopp Trigger. Bitte auf einen Trigger reduzieren."
         </MESSAGE>
@@ -1135,7 +1146,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Die Strecke '^1' hat mehr als einen Stopp / Start Trigger. Bitte auf einen Trigger reduzieren."
         </MESSAGE>
@@ -1148,7 +1159,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "Die Strecke '^1' hat mehr als die maximale Anzahl unterstützter Zwischenzeiten (^3). Bitte die Anzahl um ^2 reduzieren."
         </MESSAGE>
@@ -1766,7 +1777,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE>
             "FullHD generiert möglicherweise Videos die das aktuelle Overlay-Limit von 2 GB Grösse überschreiten. Das entspricht grob 11 Minuten für FullHD und 25 Minuten für HD. ^1 wird die Aufnahme nicht automatisch begrenzen."
         </MESSAGE>
@@ -2421,6 +2432,34 @@
         </BUTTONS>
     </ALERT_RESOURCE>
 
+    <ALERT_RESOURCE RESOURCE_ID="9337" COMMENT="ActivateDatabaseReplaced">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE>
+            "Dieses Wiederherstellen eines Backups wird die aktive Datenbank ersetzen. Für den Fall, dass die aktive Datenbank Aufzeichungen enthält, die der wiederhergestellten Datenbank hinzugefügt werden sollen: bitte zunächst die Aufzeichnungen in eine .hlptrl Datei exportieren und nach der Wiederherstellung importieren.
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Abbrechen" </TEXT>
+            <TEXT> "Wiederherstellen" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9938" COMMENT="PurgeCacheMedia">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE>
+            "Diese Funktion wird alle Mediendateien die für Erweiterungen geladen wurden löschen und ^1 Speicher frei geben. Wenn die Erweiterungen anschliessend angezeigt werden, wird ^2 ggf. geringfügig länger zum Öffnen benötigen, die Funktion löscht aber nur Dateien die wieder nachgeladen werden können.
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Löschen" </TEXT>
+            <TEXT> "Abbrechen" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9340" COMMENT="LocationServiceDisabled-iOS">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2732,13 +2771,25 @@
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Warning" </TITLE>
+		<TITLE> "Warnung" </TITLE>
 		<MESSAGE> "Keine passende Video Datei auf externer Kamera gefunden. Bitte die Videoliste nutzen um das Video manuell zu laden. Anschliessend per Runden ‣ Runde ‣ Video ‣ 'Neu referenzieren' die Session der Runde mit dem geladenen Video zu verbinden." </MESSAGE>
 		<BUTTONS>
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
-	
+
+    <ALERT_RESOURCE RESOURCE_ID="9638" COMMENT="VideoRecordingOngoing">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Bestätigung" </TITLE>
+        <MESSAGE> "Die Videoaufzeichung ist aktiv. Wenn diese Ansicht verlassen wird, wird die Aufzeichung unterbrochen!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Verlassen" </TEXT>
+            <TEXT> "Abbrechen" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -3343,7 +3394,7 @@
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
 		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-		<TITLE> "Warning" </TITLE>
+		<TITLE> "Warnung" </TITLE>
 		<MESSAGE>
 			"Für Abschnitte ohne Aufzeichnung konnten keine Positionen ermittelt werden. Bitte die Internet Verbindung prüfen oder später nochmal versuchen."
 		</MESSAGE>
@@ -3449,7 +3500,7 @@
         <ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
         <HELP_ID> 0 </HELP_ID>
         <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
-        <TITLE> "Warning" </TITLE>
+        <TITLE> "Warnung" </TITLE>
         <MESSAGE> "Time periods require the vehicle's initial registration date to be defined. Please enter this date now." </MESSAGE>
         <BUTTONS>
             <TEXT> "OK" </TEXT>

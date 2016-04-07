@@ -638,7 +638,7 @@
 
 "Creating Export Files..." = "Creando Archivos de Exportación...";
 
-"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "Esto %@ contiene los siguientes archivos de exportación, los archivos grandes son comprimidos usando gzip (extensión %s y .gz):\n\n";
+"This %@ contains the following export files, large files are compressed using gzip:\n\n" = "Esto %@ contiene los siguientes archivos de exportación, los archivos grandes son comprimidos usando gzip:\n\n";
 
 "mail" = " mail";
 
@@ -1440,21 +1440,21 @@
 /* Assistants */
 "Mount your device in portrait orientation, both pitching, and gearing is allowed." = "Monte su dispositivo en vertical. Está permitida la inclinación frontal y lateral.";
 
-"Stand still on even surface for Pitch Calibration using gravity." = "Permanezca parado para calibrar la inclinación por gravedad.";
+"Stand still on even surface for <ui>Pitch Calibration</ui> using gravity." = "Permanezca parado para calibrar la inclinación por gravedad.";
 
 "Drive a straight line with moderate speed, do not turn left or right." = "Conduzca en linea recta a velocidad moderada, no gire a izquierda o a derecha.";
 
-"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "Frene o acelere en linea recta para la calibración de la transmisión. ¡Esto es bajo su propia responsabilidad!";
+"Brake or accelerate in a straight line for <ui>Gear Calibration</ui>. This is on your own risk!" = "Frene o acelere en linea recta para la calibración de la transmisión. ¡Esto es bajo su propia responsabilidad!";
 
 "Device calibrated successfully. Please reset calibration when changing the mount." = "Dispositivo calibrado correctamente. Recalíbrelo si mueve el soporte.";
 
-"Select your track from LapTimer's database and start driving immediately!" = "Seleccione su circuito de la base de datos de LapTimer's y comienze a conducir.";
+"Select your track from <hl>PRODUCTNAME's</hl> database and start driving immediately!" = "Seleccione su circuito de la base de datos de <hl>PRODUCTNAME's</hl> y comienze a conducir.";
 
-"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "El circuito esta listo para su uso. Presione 'Conducir' para comenzar. No es necesario que toque Laptimer, cronometra de manera automática";
+"Track is ready for use! Press <ui>Drive!</ui> to drive. Don't touch <hl>PRODUCTNAME</hl>, it times automatically!" = "El circuito esta listo para su uso. Presione <ui>Conducir</ui> para comenzar. No es necesario que toque <hl>PRODUCTNAME</hl>, cronometra de manera automática";
 
-"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "Para crear un circuito de Autocross camine a la salida y pulse ‘Establecer’.";
+"To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "Para crear un circuito de Autocross camine a la salida y pulse <ui>Establecer</ui>.";
 
-"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "Camine hasta la meta y presione el boton 'Establecer'. Compruebe que la señal del GPS es buena";
+"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "Camine hasta la meta y presione el boton <ui>Establecer</ui>. Compruebe que la señal del GPS es buena";
 
 "Your autocross course is ready to use! Just mount your device and start driving." = "Su circuito de autocross está listo. Monte su dispositivo en el soporte y empiece a conducir.";
 
@@ -1464,7 +1464,7 @@
 
 "Basic user settings defined. Progress by loading your track or defining an autocross." = "Ajustes básicos del usuario definidos. Continue cargando un circuito o seleccionando autocross.";
 
-"To create your custom track, walk to the start/finish line and press the 'Set' button." = "Para crear un circuito, camine hasta la salida/meta y presione el boton 'Establecer'.";
+"To create your custom track, walk to the start/finish line and press the <ui>Set</ui> button." = "Para crear un circuito, camine hasta la salida/meta y presione el boton <ui>Establecer</ui>.";
 
 "Your track is ready to use! Just mount your device and start driving." = "Su circuito ya está listo. Monte su dispositivo en el soporte y comience a conducir.";
 
@@ -1950,9 +1950,6 @@
 
 "Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "Seleccione el fotograma que se corresponde con el final de la vuelta y presione 'Establecer'. Para hacer zoom presione la barra de desplazamiento.";
 
-/* Video Controller */
-"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "Grabación video en segundo plano desactivada. La grabación *no* comenzará automáticamente cuando pase por meta";
-
 "Microphone" = "Micrófono";
 
 "BT Mouse" = "Dispositivo BT";
@@ -2021,14 +2018,6 @@
 
 "Challenge Submission" = "Envío de reto";
 
-"First Name:" = "Nombre";
-
-"Last Name:" = "Apellido";
-
-"Last Name" = "Apellido";
-
-"First Name" = "Nombre";
-
 "Visibility" = "Visibilidad";
 
 "Public" = "Público";
@@ -2039,7 +2028,7 @@
 
 "Submit" = "Enviar";
 
-"By submitting this challenge, you confirm '%FIRST %LAST' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Enviando este reto, confirma que '%FIRST %LAST' es su nombre real y que la vuelta enviada es su grabación personal. Acepta que los datos de su vuelta sean registrados en el servidor de LapTimer y transmitidos a otros usuarios de LapTimer interesados en este reto.";
+"By submitting this challenge, you confirm '%FULLNAME' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Enviando este reto, confirma que '%FULLNAME' es su nombre real y que la vuelta enviada es su grabación personal. Acepta que los datos de su vuelta sean registrados en el servidor de LapTimer y transmitidos a otros usuarios de LapTimer interesados en este reto.";
 
 "Challenges Available" = "Retos disponibles";
 
@@ -2463,7 +2452,7 @@
 
 "Position Set" = "Posición definida";
 
-"To store your vehicle's parking position and let the app direct you back, please press the 'Set Position' button." = "Para guardar la posición de estacionamiento del vehículo y dejar que la aplicación le dirija al regresar, pulsar el botón 'Definir posición'.";
+"To store your vehicle's parking position and let the app direct you back, please press the <ui>Set Position</ui> button." = "Para guardar la posición de estacionamiento del vehículo y dejar que la aplicación le dirija al regresar, pulsar el botón <ui>Definir posición</ui>.";
 
 "Your parking position has been stored and you are ready to walk away! Return here to turn directions off." = "¡La posición de estacionamiento ha sido guardada! Regresar aquí para desactivar las direcciones.";
 
@@ -2501,6 +2490,7 @@
 
 "Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "La grabación está activa En caso de que se haya terminado de conducir, regresar a una vista del cronómetro y anular la grabación de la vuelta de enfriamiento todavía no terminada.";
 
+/* Databases view */
 "Restore" = "Restablecer";
 
 /* HeavyDuty */
@@ -2878,4 +2868,7 @@
 "The author is not responsible for any injuries or property damage that may occur during use of this software." = "El autor no se hace responsable de su mala utilización o de los daños que se puedan producir durante su uso.";
 
 "Publish" = "Publicar";
+
+/* Video Recording app */
+"%hu Recordings" = "%hu Grabaciones";
 

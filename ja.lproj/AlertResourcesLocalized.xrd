@@ -264,6 +264,17 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
+    <ALERT_RESOURCE RESOURCE_ID="2701" COMMENT="SetEmailAddressRecommendation">
+        <ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Information" </TITLE>
+        <MESSAGE> "This function will generate an e-mail including a database export. Please keep this e-mail as a backup. It is recommended to set your e-mail address in ^1's Expert Settings. This will make backup creation an one tap action." </MESSAGE>
+        <BUTTONS>
+            <TEXT> "OK" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
 	<ALERT_RESOURCE RESOURCE_ID="2800" COMMENT="ImportSuccessful">
 		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2352,6 +2363,34 @@
 		</BUTTONS>
 	</ALERT_RESOURCE>
     
+    <ALERT_RESOURCE RESOURCE_ID="9337" COMMENT="ActivateDatabaseReplaced">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "This restore operation will replace the active database by a backup database. In case you want to add recordings available in the active database to this restored database, please export them to .hlptrl first and import them once the backup has been restored.
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Cancel" </TEXT>
+            <TEXT> "Restore" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9938" COMMENT="PurgeCacheMedia">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE>
+            "This housekeeping operation will purge any media loaded for Add-on descriptions and free up ^1. Next time you load Add-ons, ^2 will probably require some more time to load, but the operation is safe to run otherwise.
+        </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Purge" </TEXT>
+            <TEXT> "Cancel" </TEXT>
+        </BUTTONS>
+    </ALERT_RESOURCE>
+
     <ALERT_RESOURCE RESOURCE_ID="9340" COMMENT="LocationServiceDisabled-iOS">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
 		<HELP_ID> 0 </HELP_ID>
@@ -2669,6 +2708,18 @@
 			<TEXT> "OK" </TEXT>
 		</BUTTONS>
 	</ALERT_RESOURCE>
+
+    <ALERT_RESOURCE RESOURCE_ID="9638" COMMENT="VideoRecordingOngoing">
+        <ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+        <HELP_ID> 0 </HELP_ID>
+        <DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+        <TITLE> "Confirmation" </TITLE>
+        <MESSAGE> "Video recording is active. When leaving this view, video recording will be interrupted!" </MESSAGE>
+        <BUTTONS>
+            <TEXT> "Interupt" </TEXT>
+            <TEXT> "Cancel" </TEXT>"
+        </BUTTONS>
+    </ALERT_RESOURCE>
 
     <ALERT_RESOURCE RESOURCE_ID="9640" COMMENT="MultiCamMasterRequiresBluetooth">
 		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>

@@ -641,7 +641,7 @@
 
 "Creating Export Files..." = "Erstelle Export Dateien...";
 
-"This %@ contains the following export files, large files are compressed using gzip (extensions %s and .gz):\n\n" = "Diese%@ enthält die folgenden exportierten Dateien, große Dateien wurden mit GZIP komprimiert (Erweiterung %s und .gz):\n\n";
+"This %@ contains the following export files, large files are compressed using gzip:\n\n" = "Diese%@ enthält die folgenden exportierten Dateien, große Dateien wurden mit GZIP komprimiert:\n\n";
 
 "mail" = " Mail";
 
@@ -1357,7 +1357,7 @@
 
 "Play" = "Anzeigen";
 
-"Re-Link" = "Neu referenzieren";
+"Re-Link" = "Referenzieren";
 
 "Video Details" = "Video Details";
 
@@ -1443,23 +1443,23 @@
 /* Assistants */
 "Mount your device in portrait orientation, both pitching, and gearing is allowed." = "Gerät bitte aufrecht befestigen. Sowohl Neigung als auch Drehung ist zulässig.";
 
-"Stand still on even surface for Pitch Calibration using gravity." = "Fahrzeug auf ebener Fläche zum Stillstand bringen. Neigung wird kalibriert.";
+"Stand still on even surface for <ui>Pitch Calibration</ui> using gravity." = "Fahrzeug auf ebener Fläche zum Stillstand bringen. Neigung wird kalibriert.";
 
 "Drive a straight line with moderate speed, do not turn left or right." = "Fahre nun mit angemessener Geschwindigkeit gerade aus...";
 
-"Brake or accelerate in a straight line for Gear Calibration. This is on your own risk!" = "Bremse (oder beschleunige) auf gerader Strecke. Drehung wird kalibriert.";
+"Brake or accelerate in a straight line for <ui>Gear Calibration</ui>. This is on your own risk!" = "Bremse (oder beschleunige) auf gerader Strecke. Drehung wird kalibriert.";
 
-"Device calibrated successfully. Please reset calibration when changing the mount." = "Gerät wurde erfolg- reich kalibriert. Bei Änderung der Halterung 'Reset' drücken.";
+"Device calibrated successfully. Please reset calibration when changing the mount." = "Gerät wurde erfolg- reich kalibriert. Bei Änderung der Halterung <ui>Reset</ui> drücken.";
 
-"Select your track from LapTimer's database and start driving immediately!" = "Wähle die befahrene Strecke aus LapTimer's Datenbank um sofort zu starten!";
+"Select your track from <hl>PRODUCTNAME's</hl> database and start driving immediately!" = "Wähle die befahrene Strecke aus <hl>PRODUCTNAMEs</hl> Datenbank um sofort zu starten!";
 
-"Track is ready for use! Press 'Drive!' to drive. Don't touch LapTimer, it times automatically!" = "Die Strecke ist geladen und bereit. LapTimer startet die Zeitnahme automatisch!";
+"Track is ready for use! Press <ui>Drive!</ui> to drive. Don't touch <hl>PRODUCTNAME</hl>, it times automatically!" = "Die Strecke ist geladen und bereit. <hl>PRODUCTNAME</hl> startet die Zeitnahme automatisch!";
 
-"To create your custom autocross track, walk to the starting line or staging area and press the 'Set' button." = "Gehe zur Startlinie oder stehendem Start und drücke 'Setze' um einen eigenen Autocross Kurs zu erstellen.";
+"To create your custom autocross track, walk to the starting line or staging area and press the <ui>Set</ui> button." = "Gehe zur Startlinie oder stehendem Start und drücke <ui>Setze</ui> um einen eigenen Autocross Kurs zu erstellen.";
 
-"Walk to the finishing line and press the 'Set' button. Check for a good GPS signal!" = "Gehe zur Zielline und drücke 'Setze'. Bitte wieder auf guten GPS Empfang achten!";
+"Walk to the finishing line and press the <ui>Set</ui> button. Check for a good GPS signal!" = "Gehe zur Zielline und drücke <ui>Setze</ui>. Bitte wieder auf guten GPS Empfang achten!";
 
-"Your autocross course is ready to use! Just mount your device and start driving." = "Dein Autocross Kurs ist nun bereit. Befestige Dein iPhone und fahre los.";
+"Your autocross course is ready to use! Just mount your device and start driving." = "Dein Autocross Kurs ist nun bereit. Befestige Dein Smartphone und fahre los.";
 
 "Please enter a 3 digit abbreviation for your name to be used in the Hall of Fame etc." = "Erfasse bitte eine aus drei Zeichen bestehende Abkürzung für Deinen Namen.";
 
@@ -1467,9 +1467,9 @@
 
 "Basic user settings defined. Progress by loading your track or defining an autocross." = "Benutzereinstellungen sind nun definiert. Lade nun eine Strecke und fahre los!";
 
-"To create your custom track, walk to the start/finish line and press the 'Set' button." = "Gehe zur Start- / Ziellinie und drücke 'Setze' um eine eigene Strecke zu erstellen.";
+"To create your custom track, walk to the start/finish line and press the <ui>Set</ui> button." = "Gehe zur Start- / Ziellinie und drücke <ui>Setze</ui> um eine eigene Strecke zu erstellen.";
 
-"Your track is ready to use! Just mount your device and start driving." = "Deine neue Strecke ist nun bereit. Befestige Dein iPhone und fahre los.";
+"Your track is ready to use! Just mount your device and start driving." = "Deine neue Strecke ist nun bereit. Befestige Dein Smartphone und fahre los.";
 
 "Define Start" = "Definiere Start";
 
@@ -1953,9 +1953,6 @@
 
 "Select the frame matching the end of the timed lap, and press 'Set'. To zoom in, long-press the slider." = "Wähle das Bild das mit dem Ende der aufgezeichneten Runde übereinstimmt und drücke 'Setze'. Für mehr Details lange auf den Filmstreifen drücken.";
 
-/* Video Controller */
-"Background video recording is disabled. Recording will *not* start when Start / Finish is passed!" = "Die automatische Aufzeichnung von Videos im Hintergrund ist ausgeschaltet. Beim Überfahren von Start / Ziel wird in Folge kein Video aufgezeichnet.";
-
 "Microphone" = "Mikrofon";
 
 "BT Mouse" = "BT Maus";
@@ -2024,14 +2021,6 @@
 
 "Challenge Submission" = "Herausforderung erstellen";
 
-"First Name:" = "Vorname:";
-
-"Last Name:" = "Nachname:";
-
-"Last Name" = "Nachname";
-
-"First Name" = "Vorname";
-
 "Visibility" = "Sichtbarkeit";
 
 "Public" = "Öffentlich";
@@ -2042,7 +2031,7 @@
 
 "Submit" = "Erstellen";
 
-"By submitting this challenge, you confirm '%FIRST %LAST' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Mit der Erstellung dieser Herausforderung bestätige ich, dass mein Name ‘%FIRST %LAST’ ist und die Runde von mir selbst aufgezeichnet wurde. Ich bin damit einverstanden, dass die Daten auf Harry’s LapTimer Server kopiert und anderen LapTimer Nutzern zur Verfügung gestellt werden.";
+"By submitting this challenge, you confirm '%FULLNAME' is your real name and the lap submitted is your personal recording. You agree your lap's data will be copied to Harry's LapTimer server and uploaded to other LapTimer users interested in this challenge." = "Mit der Erstellung dieser Herausforderung bestätige ich, dass mein Name ‘%FULLNAME’ ist und die Runde von mir selbst aufgezeichnet wurde. Ich bin damit einverstanden, dass die Daten auf Harry’s LapTimer Server kopiert und anderen LapTimer Nutzern zur Verfügung gestellt werden.";
 
 "Challenges Available" = "Herausforderungen verfügbar";
 
@@ -2466,7 +2455,7 @@
 
 "Position Set" = "Position gesetzt";
 
-"To store your vehicle's parking position and let the app direct you back, please press the 'Set Position' button." = "Position des Fahrzeugs durch Drücken von 'Setze Position' spei- chern um später hier- her zurück zu kehren. ";
+"To store your vehicle's parking position and let the app direct you back, please press the <ui>Set Position</ui> button." = "Position des Fahrzeugs durch Drücken von <ui>Setze Position</ui> speichern um später hierher zurück zu kehren. ";
 
 "Your parking position has been stored and you are ready to walk away! Return here to turn directions off." = "Position gespeichert, Sie können nun weg gehen und sehen stets die aktuelle und die Parkposition.";
 
@@ -2504,6 +2493,7 @@
 
 "Recording is active currently. In case you have finished driving, return to a timer view and cancel the cool down lap recording not finished yet." = "Die Zeitnahme läuft aktuell. Zurück in der Box bitte die offene Aufzeichung der Cool Down Runde beenden. Dazu in einer der Timer Ansichten 'Abbrechen' wählen.";
 
+/* Databases view */
 "Restore" = "Wiederherstellen";
 
 /* HeavyDuty */
@@ -3135,7 +3125,7 @@
 "The odometer value shown when the regular service has been performed." = "Der bei der Wartung aktuelle / angezeigte Kilometerstand.";
 
 /* Vehicle History */
-"Date the regular service has been performed." = "Datum an dem eine regelmässige Wartung durchgeführt wurde.";
+"Date the regular service has been performed." = "Datum an dem eine regelmäßige Wartung durchgeführt wurde.";
 
 /* Vehicle History */
 "Event Name" = "Ereignis Name";
@@ -3237,7 +3227,7 @@
 "%hu months" = "%hu Monaten";
 
 /* Vehicle History */
-"%hu day(s)" = "%hu Tag(e)";
+"%hu days" = "%hu Tage";
 
 /* Vehicle History */
 "months" = "Monate";
@@ -3354,4 +3344,155 @@
 
 /* Android preference help */
 "Ask for vehicle certification once a vehicle has been completed" = "Frage nach Fahrzeug Zertifizierung wenn alle Details erfasst sind";
+
+"First and last name" = "Vor- und Nachname";
+
+/* Beats per minute - heartrate */
+"bpm" = "Puls";
+
+"Picture in picture videos are not available for real time overlays!" = "Bild im Bild Videos werden in der Videovorschau nicht unterstützt!";
+
+"Ancient" = "Historisch";
+
+"Manual" = "Manuell";
+
+"Automatic" = "Automatisch";
+
+"Incomplete" = "Unvollständig";
+
+"Live" = "Live";
+
+"Using Android Location Service" = "Nutzt Android Standort Dienst";
+
+", using Android Location Service" = ", nutzt Android Standort Dienst";
+
+"Parallel requests enabled" = "Parallele Abfragen aktiv";
+
+", parallel requests enabled" = "parallele Abfragen aktiv";
+
+"MultiCam iCloud" = "MultiCam iCloud";
+
+/* MultiCam status */
+"Idle" = "Wartet";
+
+"Ethanol" = "Ethanol";
+
+"Natural Gas" = "Erdgas";
+
+"%@: recorded GPS fixes using NMEA0183 format (RMC and GGA)\n" = "%@: Aufgezeichnete GPS Positionen im NMEA0183 Format (RMC und GGA Sätze)\n";
+
+"%@: recorded GPS fixes using GPX, or GPS Exchange format\n" = "%@: Aufgezeichnete GPS Positionen im GPX Format (GPS Exchange Format)\n";
+
+/* e.g. LapTimer Export (...) */
+"%s Export (%s)" = "%s Export (%s)";
+
+/* Update rate */
+"%hu.%hu Hz" = "%hu.%hu Hz";
+
+/* Video Recording app */
+"%hu Recordings" = "%hu Aufzeichnungen";
+
+/* Message when searching for files in network */
+"Searching for %s (%hu)" = "Suche nach %s (%hu)";
+
+/* Message on MultiCam */
+"Connected to %@" = "Verbunden mit %@";
+
+/* Message on MultiCam */
+"%@ available..." = "%@ verfügbar...";
+
+"ID: %@" = "ID: %@";
+
+"Lap #%hu" = "Runde #%hu";
+
+/* Date and following days */
+"%@ ff" = "%@ ff";
+
+/* Databases view */
+"All databases listed are stored in <hl>PRODUCTNAME</hl>'s sandbox. Deleting the app will delete the databases too. Please take care to run regular external backups (<ui>Backup</ui>)!" = "Alle unten aufgelisteten Datenbanken sind lokal in <hl>PRODUCTNAME</hl>s Datenbereich gespeichert. Wenn die App gelöscht wird, werden diese Datenbanken ebenfalls gelöscht. Deshalb bitte regelmäßig mittels  <ui>Backup</ui> externe Sicherungen erstellen!";
+
+/* Databases view */
+"Backup" = "Backup";
+
+/* Databases view */
+"Local Copy" = "Lokale Kopie";
+
+/* Databases view */
+"Local Backups" = "Lokale Backups";
+
+/* Databases view */
+"System Backup" = "System Backup";
+
+/* Databases view */
+"Inactivated Backup" = "Inaktiviertes Backup";
+
+"Databases" = "Datenbanken";
+
+"Active Database" = "Aktive Datenbank";
+
+/* Databases view */
+"User Backup" = "Nutzer Backup";
+
+/* Picture in Picture name label */
+"PiP Name" = "Name";
+
+/* Help text for PiP Name */
+"Please enter a name to qualify the perspective shown. Name will be shown for Picture in Picture inserts. When set to '%@', the video is shown top centered in video overlays." = "Bitte Beschreibung für die Video Perspektive eingeben. Name wird bei Bild im Bild Videos angezeigt. Wenn auf '%@' gesetzt, wird das Video im Overlay oben zentriert angezeigt.";
+
+/* Picture in Picture name */
+"Rear View Mirror" = "Rückspiegel";
+
+"Point the device to the direction you will pass the trigger at, and press <ui>Set</ui>. Limiting driving directions improves reliablity of trigger detection." = "Zeige mit der Oberkante des Geräts in Fahrtrichtung und drücke <ui>Setze</ui>. Die Begrenzung der Fahrtrichtung erhöht die Zuverlässigkeit.";
+
+"Skip" = "Überspringen";
+
+"Driving Direction" = "Fahrtrichtung";
+
+/* 3D touch */
+"Latest Best Lap" = "Letzte beste Runde";
+
+/* 3D touch */
+"Latest Trip" = "Letzte Reise";
+
+/* 3D touch */
+"Trace to Console" = "Trace auf Konsole";
+
+/* 3D touch */
+"Tracing Off" = "Trace aus";
+
+/* Databases View */
+"Add-on and Other Media" = "Erweiterungen und andere Medien";
+
+/* Database View */
+"Cached Media" = "Gespeicherte Medien";
+
+/* Video CC Hover View */
+"Video Operation" = "Video Funktion";
+
+/* Video CC Hover View */
+"Please select internal, external, or all cam operation above. Currently, video operation is not active. <hl>PRODUCTNAME</hl> will record lap times and data without video and overlay options." = "Wähle oben interne, externe oder alle Kameras zur Nutzung aus. Aktuell ist die Video Funktion ist abgeschaltet. <hl>PRODUCTNAME</hl> zeichnet Zeiten und Daten, aber kein Video auf.";
+
+/* Video CC Hover View */
+"Video operation is active using the interal cam. The cam will be started jointly with data recordings." = "Die Video Funktion ist aktiv und nutzt die interne Kamera. Der Start erfolgt automatisch mit der Zeitnahme.";
+
+/* Video CC Hover View */
+"Video operation set to use both internal, and any compatible external cams connected." = "Die Video Funktion nutzt die interne und angeschlossene kompatible externe Kameras.";
+
+/* Video CC Hover View */
+"Video operation set to external cam only. The internal cam will not be used to record additional footage." = "Die Video Funktion ist nur für externe Kameras aktiv. Die interne Kamera wird nicht genutzt.";
+
+/* Video CC Hover View */
+"No external cam connected currently." = "Aktuell ist keine externe Kamera verbunden.";
+
+/* Video CC Hover View */
+"Cam(s) connected: <hl>%@</hl>." = "Verbundene Kameras: <hl>%@</hl>.";
+
+/* Video CC Hover View */
+"To verify field of view, or set cam properties, press <ui>Preview</ui>." = "Zur Überprüfung des Bildausschnitts oder Einstellungen bitte <ui>Vorschau</ui> auswählen.";
+
+/* Video CC Hover View */
+"<er>Turn PRODUCTNAME to landscape when recording.</er>" = "<er>PRODUCTNAME während Aufnahme in Querformat drehen.</er>";
+
+/* Splash message in Video View */
+"Video recording will be continued in background, please do not forget to finish it later." = "Videoaufzeichung wird im Hintergrund fortgesetzt, bitte nicht vergessen sie später zu beenden.";
 
